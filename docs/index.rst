@@ -31,4 +31,4 @@ Developers can enhance the code according to the functionalities they want to ad
 
 =================
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/amnahsiddique/graphenee/blob/master/docs/index.rst)
