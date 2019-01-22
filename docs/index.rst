@@ -18,8 +18,8 @@ Welcome to Graphenee's documentation!
 Indices and tables
 ==================
 
-* 1.:ref:`Introduction to Graphenee`
-* 2.:ref:`Component Diagram`
+* 1.Introduction to Graphenee
+* 2.Component Diagram
 * 3.:ref:`Modules of Graphenee`
 
 ==================
