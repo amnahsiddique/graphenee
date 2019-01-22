@@ -33,4 +33,4 @@ Indices and tables
 
 =================
 
-![alt text](file:///C:/Users/TAYYAB/Desktop/grapehenee%20dpcumentation/component%20Diagram.png)
+![alt text](https://github.com/amnahsiddique/graphenee/wiki/components/_edit)
