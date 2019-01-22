@@ -6,15 +6,29 @@
 Welcome to Graphenee's documentation!
 =====================================
 
+
+
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Introduction:
 
 
 
 Indices and tables
 ==================
 
-* :ref:`Introduction to Graphenee`
-* :ref:`Component Diagram`
-* :ref:`Modules of Graphenee`
+* 1.:ref:`Introduction to Graphenee`
+* 2.:ref:`Component Diagram`
+* 3.:ref:`Modules of Graphenee`
+
+==================
+
+“Graphennee” is an open source framework for  developing rich Enterprise Applications. The name of the framework is a combination of Graphene and Enterprise Edition (ee). The development of this framework was started in April 2016 using Java, Spring Boot, and Vaadin. 
+The main purpose of developing the framework is to increase the coding efficiency for building attractive and user friendly enterprise applications for business and organizations. 
+Developers can enhance the code according to the functionalities they want to add in their project. It increases the reliability of your system and reduces the programming and testing effort.
+
+
+=================
+
+![alt text](http://url/to/img.png)
