@@ -15,6 +15,6 @@ Welcome to Graphenee's documentation!
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`Introduction to Graphenee`
+* :ref:`Component Diagram`
+* :ref:`Modules of Graphenee`
