@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Graphenee's documentation!
+Introduction to Graphenee
 ====================================
 
 “Graphennee” is an open source framework for  developing rich Enterprise Applications. The name of the framework is a combination of Graphene and Enterprise Edition (ee). The development of this framework was started in April 2016 using Java, Spring Boot, and Vaadin.
@@ -14,13 +14,13 @@ Developers can enhance the code according to the functionalities they want to ad
 
  ==================
 
-1. **Introduction to Graphenee**
 
 
-2. **Component Diagram**
+
+ **Component Diagram**
 
 
-3. **Modules of Graphenee**
+ **Modules of Graphenee**
 
 
  -  gx-core- Core API
