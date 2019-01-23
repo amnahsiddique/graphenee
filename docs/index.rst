@@ -15,8 +15,11 @@ Developers can enhance the code according to the functionalities they want to ad
  ==================
 
 1. Introduction to Graphenee
+============================
 2. Component Diagram
-3. Modules of Graphenee`
+============================
+3. Modules of Graphenee
+============================
 
  -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
