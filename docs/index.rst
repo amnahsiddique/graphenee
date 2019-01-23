@@ -16,8 +16,10 @@ Developers can enhance the code according to the functionalities they want to ad
 
 Introduction to Graphenee
 ============================
+
 Component Diagram
 ============================
+
 Modules of Graphenee
 ============================
 
