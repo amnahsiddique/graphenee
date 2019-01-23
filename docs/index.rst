@@ -16,9 +16,9 @@ Developers can enhance the code according to the functionalities they want to ad
 Indices and tables
 ==================
 
-* Introduction to Graphenee
-* Component Diagram
-* Modules of Graphenee`
+1. Introduction to Graphenee
+2. Component Diagram
+3. Modules of Graphenee`
 
  -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
