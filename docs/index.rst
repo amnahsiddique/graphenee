@@ -14,14 +14,14 @@ Developers can enhance the code according to the functionalities they want to ad
 
  ==================
 
-* Introduction to Graphenee
-===========================
+** Introduction to Graphenee **
 
- * Component Diagram
-============================
 
- * Modules of Graphenee
-============================
+ ** Component Diagram **
+
+
+ ** Modules of Graphenee **
+
 
  -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
