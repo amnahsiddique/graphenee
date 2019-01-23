@@ -15,6 +15,9 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+
+# -- Option for HTML output --------------------------------------------------
+
 # html_theme = "sphinx_rtd_theme"
 # html_theme_path = ["_themes"]
 
