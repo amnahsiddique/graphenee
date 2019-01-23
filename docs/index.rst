@@ -18,9 +18,9 @@ Developers can enhance the code according to the functionalities they want to ad
 Indices and tables
 ==================
 
-* 1.Introduction to Graphenee
-* 2.Component Diagram
-* 3.Modules of Graphenee`
+* Introduction to Graphenee
+* Component Diagram
+* Modules of Graphenee`
 
 ==================
 
