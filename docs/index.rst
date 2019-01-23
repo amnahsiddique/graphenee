@@ -14,13 +14,13 @@ Developers can enhance the code according to the functionalities they want to ad
 
  ==================
 
-** Introduction to Graphenee **
+1. **Introduction to Graphenee**
 
 
- ** Component Diagram **
+2. **Component Diagram**
 
 
- ** Modules of Graphenee **
+3. **Modules of Graphenee**
 
 
  -  gx-core- Core API
