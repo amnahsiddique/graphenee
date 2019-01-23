@@ -18,8 +18,6 @@ Developers can enhance the code according to the functionalities they want to ad
 Indices and tables
 ==================
 
-   Amna Test
-
 * 1.Introduction to Graphenee
 * 2.Component Diagram
 * 3.Modules of Graphenee`
