@@ -34,7 +34,7 @@ Developers can enhance the code according to the functionalities they want to ad
  ============================================
 
 
-Modudes
+Modules
 ==========
 
 Graphenee consists of seven modules which provide the developers a less complex and effortless programming structure. Each module has its own unique structure and functionalities. You can expand the code and define utility methods which can be reused further in your project.
