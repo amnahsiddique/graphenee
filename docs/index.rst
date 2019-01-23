@@ -22,7 +22,7 @@ Indices and tables
 
 * 1.Introduction to Graphenee
 * 2.Component Diagram
-* 3.:ref:`Modules of Graphenee`
+* 3.Modules of Graphenee`
 
 ==================
 
