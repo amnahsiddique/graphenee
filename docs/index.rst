@@ -29,7 +29,6 @@ Indices and tables
  -  gx-jbpm-embedded
 
 
-==================
 
 Modules 
 ==========
