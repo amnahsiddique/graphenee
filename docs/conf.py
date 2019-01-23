@@ -14,12 +14,8 @@
 #
 # import os
 # import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
-# -- Option for HTML output --------------------------------------------------
-
-# html_theme = "sphinx_rtd_theme"
-# html_theme_path = ["_themes"]
+# sys.path.insert(0, os.path.abspath('sphinxext'))
+#extensions = ['sphinx.ext.*']
 
 # -- Project information -----------------------------------------------------
 
@@ -32,12 +28,43 @@ version = u''
 # The full version, including alpha/beta/rc tags
 release = u''
 
+# -- Option for HTML output --------------------------------------------------
+
+#extensions = ['sphinxjp.themes.basicstrap']
+#html_theme = 'basic'
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path =["_themes",]
+ 
+#html_theme_path = ['.']
+
+html_theme_options = {
+	
+	 #  'canonical_url': '',
+	 #  'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
+ 	 # 'logo_only': False,
+  	 # 'display_version': 'True',
+  	 # 'prev_next_buttons_location': 'bottom',
+  	 # 'style_external_links': 'False',
+ 	 # 'vcs_pageview_mode': '',
+  
+     # --  Toc options
+
+       	#   'collapse_navigation': 'True',
+        #  'sticky_navigation': 'True',
+        # 'navigation_depth': 4,
+        # 'includehidden': 'True',
+        # 'titles_only': 'False'
+
+	#"rightsidebar": "true",
+ 	#   "relbarbgcolor": "black"
+}
 
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-# needs_sphinx = '1.0'
+# needs_sphinx = '1.2.2'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -53,6 +80,9 @@ templates_path = ['_templates']
 #
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes"]
 
 # The master toctree document.
 master_doc = 'index'

@@ -20,4 +20,17 @@ Indices and tables
 
 * :ref:`Introduction`
 * :ref:`Diagram`
-* :ref:`Modules'
+* :ref:`Modules`
+
+
+Code Section
+===============
+
+	print 'hello'
+	>>hell
+
+
+
+.. toctree::
+:maxdepth: 2
+second
