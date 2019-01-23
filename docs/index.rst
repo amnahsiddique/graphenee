@@ -12,9 +12,7 @@ The main purpose of developing the framework is to increase the coding efficienc
 
 Developers can enhance the code according to the functionalities they want to add in their project. It increases the reliability of your system and reduces the programming and testing effort.
 
-   
-Indices and tables
-==================
+ ==================
 
 1. Introduction to Graphenee
 2. Component Diagram
@@ -32,7 +30,8 @@ Indices and tables
 
 
 
-** Modules **
+  Modules 
+  =========
 
 
 Graphenee consists of seven modules which provide the developers a less complex and effortless programming structure. Each module has its own unique structure and functionalities. You can expand the code and define utility methods which can be reused further in your project.
