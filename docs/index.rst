@@ -19,6 +19,7 @@ Developers can enhance the code according to the functionalities they want to ad
 Component Diagram 
 ------------------
 
+=================================
   
   .. image:: GadN.png
       :width: 800
