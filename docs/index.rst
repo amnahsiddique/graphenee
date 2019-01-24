@@ -17,7 +17,7 @@ Developers can enhance the code according to the functionalities they want to ad
 
 
 Component Diagram
-*******************
+*****************
 
 =================================
   
@@ -28,7 +28,7 @@ Component Diagram
       
 
  Modules of Graphenee
- **********************
+ ----------------------
 
 -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
