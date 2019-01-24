@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Introduction to Graphenee
-=========================
+#########################
 
 
 <p> “Graphennee” is an open source framework for  developing rich Enterprise Applications. The name of the framework is a combination of Graphene and Enterprise Edition (ee). The development of this framework was started in April 2016 using Java, Spring Boot, and Vaadin. </p>
