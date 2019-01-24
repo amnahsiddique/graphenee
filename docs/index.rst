@@ -31,7 +31,7 @@ Component Diagram
 Modules of Graphenee
 ----------------------
 
--  gx-core- Core API
+ -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
  -  gx-security & gx-security-vaadin 
  -  gx-vaadin- Core vaadin components
