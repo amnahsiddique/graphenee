@@ -23,6 +23,8 @@ Component Diagram
   .. image:: GadN.png
       :width: 800
       :alt: Alternative text
+=================================      
+      
 
  Modules of Graphenee
 ----------------------
