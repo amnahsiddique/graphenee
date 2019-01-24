@@ -24,8 +24,8 @@ Component Diagram
       :width: 800
       :alt: Alternative text
 
- **Modules of Graphenee**
-
+ Modules of Graphenee
+----------------------
 
  -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
