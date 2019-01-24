@@ -28,7 +28,7 @@ Developers can enhance the code according to the functionalities they want to ad
       
 
  **Modules of Graphenee**
-----------------------
+
 
  -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
