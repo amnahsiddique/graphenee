@@ -17,7 +17,7 @@ Developers can enhance the code according to the functionalities they want to ad
 
 
 Component Diagram
-----------------------
+*******************
 
 =================================
   
@@ -27,7 +27,7 @@ Component Diagram
 =================================      
       
 
- **Modules of Graphenee**
+ Modules of Graphenee
 
  -  gx-core- Core API
  -  gx-i18n & gx-i18n-vaadin
@@ -40,7 +40,7 @@ Component Diagram
  ============================================
 
 
-**Modules**
+Modules
 ========
 
 Graphenee consists of seven modules which provide the developers a less complex and effortless programming structure. Each module has its own unique structure and functionalities. You can expand the code and define utility methods which can be reused further in your project.
