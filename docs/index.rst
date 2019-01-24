@@ -18,7 +18,7 @@ Developers can enhance the code according to the functionalities they want to ad
 
 
  **Component Diagram**
-![](graphenee/Images/GadN.png)
+![](../Images/GadN.png)
       
 
  **Modules of Graphenee**
