@@ -1,3 +1,5 @@
+.. _Get Started:
+
 Get Started
 ===========
 	

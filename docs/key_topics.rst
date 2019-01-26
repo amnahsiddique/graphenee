@@ -4,6 +4,6 @@ Key Topics
 	* Introduction
 	* Component Diagram
 	* Modules
-	* Get Started
+	:ref:`Get Started`
 
 	
