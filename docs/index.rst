@@ -8,6 +8,7 @@
 	:maxdepth:2
 	introduction
 	key_topics
+	modules
 	get_started
 	
 
