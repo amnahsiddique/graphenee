@@ -1,9 +1,7 @@
 Key Topics
 =========
- 	
-	* Introduction
-	* Component Diagram
-	
+ 
+	:ref:`Introduction`	
 	:ref:`Modules`
 	:ref:`Get Started`
 
