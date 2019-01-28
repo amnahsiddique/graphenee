@@ -28,7 +28,7 @@ Component Diagram
 
 =================================
   
-  .. image:: GadN.png
+  .. image:: Gadg.png
       :width: 800
       :alt: Alternative text
 =================================      
