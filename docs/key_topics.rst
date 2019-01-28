@@ -1,8 +1,8 @@
 Key Topics
 =========
  
-	:ref:`Introduction`	
-	:ref:`Modules`
-	:ref:`Get Started`
+	* Introduction	
+	* Modules
+	* Get Started
 
 	
