@@ -3,7 +3,7 @@ Key Topics
  	
 	* Introduction
 	* Component Diagram
-	* Modules
+	:ref:`Modules`
 	:ref:`Get Started`
 
 	
