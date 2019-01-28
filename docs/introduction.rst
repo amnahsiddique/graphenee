@@ -14,7 +14,7 @@ Component Diagram
 
 =================================
   
-  .. image:: images/GADg.png
+  .. image:: images/figure1.png
       :width: 800
       :alt: Alternative text
 =================================      
