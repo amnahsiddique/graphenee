@@ -3,11 +3,11 @@
 Get Started
 ===========
 	
- 1. Start Eclipse
- 2. Create Maven Projects
- 3. Import Graphenee Dependecies
- 4. Update Maven Project
- 5. Run as Debug Mode
+1. Start Eclipse.
+2. Create a Maven project. 
+3. Add Graphenee modules. (gx-vaadin, gx-vaadin-theme, vaadin-spring-boot-starter, h2 [runtime], vaadin-push).
+4. Update Maven project.
+5. Run as Debug Mode. 
 
    	
    .. code-block:: bash
@@ -26,7 +26,8 @@ Get Started
 
 	}	
 
- 6. Java main class look like this
+ 6. A block of code has shown below which consists of java main class. 
+
 
 
   .. code-block:: bash
@@ -46,9 +47,10 @@ Get Started
 
 	}	
 
- 7. Create a new class with name servletinitializer and extends it with spring servlet initializer , override a configure method here in this class and it will return the spring application builder to main class “application.java”
- 8. Create another java class, extend it with abstract dashboard setup and add unimplemented methods, annotate it with Service and uiscope, view of application first page.
- 9. Create mainui.java extend it with adstractdashboardui, add unimplemented method and autowire spring view and applicationdashboard here. Annotate it with springUI, theme, push, viewport
+ 7. Create a new class named servlet initializer and extend it with spring servlet initializer.
+ 8. After extending, override a configuration method within the class which will return the spring application builder to the main application “application.java".
+ 9. Create another java class, Extend it with abstract dashboard setup then add unimplemented methods, annotate it with Service and UIscope, view of application’s first page.
+
 
   .. code-block:: bash 
  	
@@ -86,8 +88,12 @@ Get Started
 
 	}
  
- 10. Create another class, extend it with Abstract dashboard panel and implements mview, must annotate it with springview , add this in dashboardsetup.java
- 11. Dashboardviewname() return default view.java in DashboardSetup.java
+ 10. Create mainui.java, Extend it with abstract-dashboard-ui, add unimplemented methods and autowire spring view and and application dashboard here.
+ 11. Annotate it with springUI, theme, push and viewport.
+ 12. Create another class, Extend it with Abstract dashboard panel and implement view, must annotate it with the springview then add it in dashboardsetup.java.
+ 13. Dashboardviewname() return default view.java in Dashboardviewname.java.
+
+
 
   .. code-block:: bash
 	
@@ -97,7 +103,7 @@ Get Started
 		return DefaultDashboardView.VIEW_NAME;
 		}
 
- 12. Create a database connection, graphenee need a database and save it with the name as “application.properties” inside the resources packages. 
+ 13. Create a database connection, graphenee need a database and save it with the name as “application.properties” inside the resources packages. 
 
   .. code-block:: bash
 
@@ -113,7 +119,7 @@ Get Started
 	:width: 800
 	:alt: Alternative text
 
- 14.First page After Login
+ 14. Main page After Login
 
  .. image:: images/firstView.png
 	:width: 800
@@ -238,7 +244,7 @@ Get Started
 
 	}
 
- 16. View with panel, Panel have default Buttons 
+ 16. View of panel, Panel have default Buttons 
 
  .. image:: images/panel.png
 	:width: 800
