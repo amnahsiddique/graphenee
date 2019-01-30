@@ -298,7 +298,7 @@ Get Started
 	}
 	}
 
- 15. Autowire panel class here in DefaultDashboardView.java, refresh this paneland add pannel componnet in view 
+ 15. Autowire panel class here in DefaultDashboardView.java, refresh this panel and add panel componnet in view. 
 
  .. code-block:: bash
 	 
@@ -388,7 +388,7 @@ Get Started
 	}
 	}
 	
- 18. Create a new class, for form, extend it with trAbstractForm and provide type of Bean which is created.
+ 18. Create a new class, for form, extend it with TRAbstractForm and provide type of Bean which is created.
 
  .. code-block: bash
 
