@@ -50,7 +50,7 @@ Graphenee consists of seven modules which provide the developers a less complex 
 
 ==================
 
-**core Module**
+**Core Module**
 
 gx-core works as a library which contains data structures and utility classes. It is an essential module to build a project within the Graphenee. Here you can add and extend the utility methods based upon your project or application. The code can be modified into desired structure.
 
@@ -62,7 +62,7 @@ By adding this module to your project you can design the front end of your appli
 
 ==================
 
-**security Module** 
+**Security Module** 
 
 gx-security contains pre-written utility classes which help to manage the systematic security. gx-security vaadin helps to define security implementations to your project. You can set up security procedures such as user authorization, privacy policies, access keys for your system.
 
