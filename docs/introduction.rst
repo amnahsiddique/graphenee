@@ -1,4 +1,4 @@
-Welcome to Grpahenee's Documentation!
+Welcome to Graphenee's Documentation!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Introduction
