@@ -5,10 +5,10 @@ Get Started
 	
  1. Start Eclipse
  2. Create Maven Projects
- 3. Import Graphenee Dependecies
+ 3. Import Graphenee Dependecies(gx-vaadin, gx-vaadin-theme, vaadin-spring-boot-starter, vaadin-push). Link any database, we are using H2 databse for this project.
  4. Update Maven Project
  5. Run as Debug Mode
-
+ 6. A block of code has shown below which consists of java main class.
    	
    .. code-block:: bash
 	
@@ -26,8 +26,8 @@ Get Started
 
 	}	
 
- 6. Java main class look like this
-
+ 7. Create a new class named ServletInitializer and extend it with SpringBootServletInitializer.
+ 8. After extending, override a configure method within the class which will return the spring application to the main application which is our main class “application.java”.
 
   .. code-block:: bash
 
@@ -46,9 +46,75 @@ Get Started
 
 	}	
 
- 7. Create a new class with name servletinitializer and extends it with spring servlet initializer , override a configure method here in this class and it will return the spring application builder to main class “application.java”
- 8. Create another java class, extend it with abstract dashboard setup and add unimplemented methods, annotate it with Service and uiscope, view of application first page.
- 9. Create mainui.java extend it with adstractdashboardui, add unimplemented method and autowire spring view and applicationdashboard here. Annotate it with springUI, theme, push, viewport
+ 9. Create another java class, extend it with abstract dashboard setup and add unimplemented methods, annotate it with Service and uiscope, view of application first page.
+
+  .. code-block:: bash 
+
+	package com.myapp.todoapp;
+
+	import java.util.List;
+	import com.vaadin.navigator.Navigator;
+	import com.vaadin.ui.Image;
+	import io.graphenee.core.exception.AuthenticationFailedException;
+	import io.graphenee.core.exception.PasswordChangeRequiredException;
+	import io.graphenee.vaadin.AbstractDashboardSetup;
+	import io.graphenee.vaadin.TRMenuItem;
+	import io.graphenee.vaadin.domain.DashboardUser;
+	import io.graphenee.vaadin.event.DashboardEvent.UserLoginRequestedEvent;
+	import com.vaadin.spring.annotation.UIScope;
+	import org.springframework.stereotype.Service;
+
+	@Service
+	@UIScope
+	public class DashboardSetup extends AbstractDashboardSetup {
+
+	@Override
+	public String applicationTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Image applicationLogo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected List<TRMenuItem> menuItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected List<TRMenuItem> profileMenuItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String dashboardViewName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void registerViewProviders(Navigator navigator) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public DashboardUser authenticate(UserLoginRequestedEvent event) throws AuthenticationFailedException, PasswordChangeRequiredException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	}
+
+
+ 10. Create MainUI.java extend it with AdstractDashboardUI, add unimplemented method and autowire SpringViewProvider and DashboardSetup class here.
+ 11. Annotate this class with SpringUI, Theme, Push and Viewport.
 
   .. code-block:: bash 
  	
@@ -86,18 +152,68 @@ Get Started
 
 	}
  
- 10. Create another class, extend it with Abstract dashboard panel and implements mview, must annotate it with springview , add this in dashboardsetup.java
- 11. Dashboardviewname() return default view.java in DashboardSetup.java
+ 12. Create a class for view, extend it with AbstractDashboardPanel and implements MView, add unimplemented methods,  must annotate it with SpringView , add this in DashboardSetup.java.
 
   .. code-block:: bash
 	
-		@Override
-		public String dashboardViewName() {
-			// Add default view name here
-		return DefaultDashboardView.VIEW_NAME;
-		}
+	package com.myapp.todoapp;
 
- 12. Create a database connection, graphenee need a database and save it with the name as “application.properties” inside the resources packages. 
+	import org.vaadin.viritin.navigator.MView;
+	import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
+	import io.graphenee.vaadin.AbstractDashboardPanel;
+	import org.springframework.context.annotation.Scope;
+	import com.vaadin.spring.annotation.SpringView;
+
+	
+	@SpringView(name = DefaultDashboardView.VIEW_NAME)
+	@Scope("prototype")
+	public class DefaultDashboardView extends AbstractDashboardPanel implements MView{
+	
+	public static final String VIEW_NAME = "todo-list";
+
+	@Override
+	public void enter(ViewChangeEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean beforeViewChange(ViewChangeEvent event) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void afterViewChange(ViewChangeEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	protected String panelTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected void postInitialize() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	}		
+
+ 13. DashboardViewName() return default view.java in DashboardSetup.java
+
+  .. code-block:: bash
+	
+	@Override
+	public String dashboardViewName() {
+		// Add default view name here
+	return DefaultDashboardView.VIEW_NAME;
+	}
+
+ 14. Create a database connection, graphenee need a database and save it with the name as “application.properties” inside the resources packages. 
 
   .. code-block:: bash
 
