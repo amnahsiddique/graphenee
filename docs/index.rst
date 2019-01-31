@@ -8,7 +8,7 @@
         Modules
         Core 
         Vaadin Module
-        Security Module
+        Security
         Localization Module
         SMS Module
         JBPM Module
