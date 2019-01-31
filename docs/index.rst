@@ -2,7 +2,10 @@
    sphinx-quickstart on Tue Dec 18 21:14:43 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive
-   
+   .. toctree::
+        :maxdepth:3
+         gx-core- Core API
+        
 
 Introduction to Graphenee
 #########################
