@@ -31,7 +31,7 @@ Modules of Graphenee
  *  gx-security & gx-security-vaadin 
  *  gx-vaadin- Core vaadin components
  *  gx-aws 
- *  gx-sms & gx-sms-vaadi
+ *  gx-sms & gx-sms-vaadin
  *  gx-jbpm-embedded
  
  ============================================
