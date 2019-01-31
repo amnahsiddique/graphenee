@@ -15,7 +15,6 @@ Graphenee consists of following modules:
 * gx-i18n & gx-i18n-vaadin - I18n module that is used to store and manage translation terms
 * gx-security & gx-security-vaadin - Security module for creating and managing users, groups and policies
 * gx-vaadin - Core Vaadin components to build dashboard, forms, panels and data grids quickly
-* gx-aws - Easy access to AWS services such as SMS
 * gx-sms & gx-sms-vaadin - Easy access to SMS service providers such as AWS SMS, Twilio, Eocean, etc.
 * gx-jbpm-embedded - Embedded jBPM engine support
 
