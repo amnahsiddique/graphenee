@@ -12,7 +12,6 @@
         Localization Module
         SMS Module
         JBPM Module
-        AWS Module
         
         
 
