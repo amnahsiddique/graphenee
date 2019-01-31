@@ -6,7 +6,7 @@
         :maxdepth:3
         Introduction
         Modules
-        Core 
+        Core Module
         Vaadin Module
         Security Module
         Localization Module
