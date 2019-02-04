@@ -33,6 +33,6 @@ Modules of Graphenee
  *  gx-aws 
  *  gx-sms & gx-sms-vaadin
  *  gx-jbpm-embedded
- *  gx-AWS
+ 
  
  ============================================
